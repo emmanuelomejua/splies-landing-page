@@ -4,6 +4,8 @@ import ListCard from './ListCard';
 import { forYouData } from '../../constant/data';
 import H1 from '../../components/H1';
 import P from '../../components/P';
+import Title from '../../components/Title';
+import Box from '../../components/Box';
 
 
 const ForYou = () => {
@@ -16,8 +18,9 @@ const ForYou = () => {
             </div>
 
             <div className="flex flex-1 flex-col justify-center h-full gap-5">
-                <div className="flex flex-col justify-center gap-2">
-                    <span className="rounded-full border-[1px] text-Green py-[10px] px-[24px] font-[500] text-sm w-max">FOR YOU</span>
+                <Box text='' text1='' text2='' data={forYouData} />
+                {/* <div className="flex flex-col justify-center gap-2">
+                    <Title text='FOR YOU' />
                     <H1 text='Increase bookings by up to 25%' className='text-[#001914]' />
                     <P text='Splice boosts salon and wellness bookings by up to 25%, reduces missed appointments, and increases revenue.' className='text-[#001914]'/>
                 </div>
@@ -28,7 +31,7 @@ const ForYou = () => {
                     ))
                     }
 
-                </div>
+                </div> */}
             </div>
         </div>
     </div>

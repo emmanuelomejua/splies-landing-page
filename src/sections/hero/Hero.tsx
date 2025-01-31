@@ -1,14 +1,39 @@
-import React from 'react'
+import React, { useEffect, useState, useMemo } from 'react'
 import Navbar from './Navbar';
-import { HeroImage, heroFrame } from '../../constant/images';
+import { HeroImage, heroFrame, forYou, maryChina } from '../../constant/images';
 import Button from '../../components/buttons/Button';
 
 
 
 const Hero = () => {
+
+  const images = useMemo(() => [
+    HeroImage,
+    forYou,
+    maryChina
+  ], [])
+
+  const [currentImage, setCurrentImage] = useState(HeroImage);
+  const [imageIndex, setImageIndex] = useState(0);
+
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [images.length]);
+
+
+
+  useEffect(() => {
+    setCurrentImage(images[imageIndex]);
+  }, [images, imageIndex]);
+
+
   return (
     <div 
-      style={{ backgroundImage: `url(${HeroImage})`, 
+      style={{ backgroundImage: `url(${currentImage})`, 
       backgroundSize: 'cover', 
       backgroundRepeat: 'no-repeat', 
       backgroundColor: '#032721' }} 

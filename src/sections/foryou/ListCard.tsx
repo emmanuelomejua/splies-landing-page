@@ -11,7 +11,7 @@ const ListCard = ({item}: {item: CardType} ) => {
   return (
     <div className='flex gap-4'>
         <div className="h-[28px] w-[28px] border-[1px] rounded-[2px] flex items-center justify-center">
-            <img src={item.icon} alt="" className="h-[15px] w-[15px]" />
+            <img src={item.icon} alt="" className="h-[20px] w-[20px]" />
         </div>
 
         <div className="flex flex-col gap-1">

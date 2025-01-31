@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* FONTS */
+@font-face {
+    font-family: "font-bold";
+    src: url("../src/assets/fonts/AnthroTrial-Bold.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "font-semibold";
+    src: url("../src/assets/fonts/AnthroTrial-Semi-Bold.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "font-medium";
+    src: url("../src/assets/fonts/AnthroTrial-Medium.otf") format("opentype");
+  }
+
+
+  @font-face {
+    font-family: "font-regular";
+    src: url("../src/assets/fonts/AnthroTrial-Regular.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "font-light";
+    src: url("../src/assets/fonts/AnthroTrial-Light.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "font-book";
+    src: url("../src/assets/fonts/AnthroTrial-Book.otf") format("opentype");
+  }
+
+  

@@ -6,6 +6,7 @@ import MaryChina from './sections/marychina/MaryChina';
 import WhatClient from './sections/whatclient/WhatClient';
 import CoreBenefits from './sections/corebenefits/CoreBenefits';
 import StayOrganized from './sections/organized/StayOrganized';
+import YourBusiness from './sections/yourbusiness/YourBusiness';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <hr className='h-1 w-full' />
       <CoreBenefits/>
       <StayOrganized/>
+      <YourBusiness/>
     </main>
   );
 }
