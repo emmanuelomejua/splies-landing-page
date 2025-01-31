@@ -8,7 +8,7 @@ import Button from '../../components/buttons/Button';
 const Hero = () => {
   return (
     <div 
-      style={{ backgroundImage: `linear-gradient(to right, rgba(30, 13, 55, 0.7), rgba(128, 0, 128, 0.7)), url(${HeroImage})`, 
+      style={{ backgroundImage: `url(${HeroImage})`, 
       backgroundSize: 'cover', 
       backgroundRepeat: 'no-repeat', 
       backgroundColor: '#032721' }} 

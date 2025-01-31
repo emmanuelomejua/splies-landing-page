@@ -1,6 +1,10 @@
 import React from 'react';
 import { forYou } from '../../constant/images';
 import ListCard from './ListCard';
+import { forYouData } from '../../constant/data';
+import H1 from '../../components/H1';
+import P from '../../components/P';
+
 
 const ForYou = () => {
   return (
@@ -14,15 +18,16 @@ const ForYou = () => {
             <div className="flex flex-1 flex-col justify-center h-full gap-5">
                 <div className="flex flex-col justify-center gap-2">
                     <span className="rounded-full border-[1px] text-Green py-[10px] px-[24px] font-[500] text-sm w-max">FOR YOU</span>
-                    <h1 className='font-[600] text-[45px] text-[#001914]'>Increase bookings by up to 25%</h1>
-                    <p className='text-[#656565] font-[500] text-[16px]'>Splice boosts salon and wellness bookings by up to 25%, reduces missed appointments, and increases revenue. </p>
+                    <H1 text='Increase bookings by up to 25%' />
+                    <P text='Splice boosts salon and wellness bookings by up to 25%, reduces missed appointments, and increases revenue.' />
                 </div>
 
                 <div className="flex flex-col mt-2 gap-3">
-                    <ListCard/>
-                    <ListCard/>
-                    <ListCard/>
-                    <ListCard/>
+                    { forYouData.map((item) => (
+                        <ListCard item={item}/>
+                    ))
+                    }
+
                 </div>
             </div>
         </div>
