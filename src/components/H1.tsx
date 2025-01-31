@@ -1,8 +1,8 @@
 import React from 'react'
 
-const H1 = ({text}: {text: string}) => {
+const H1 = ({text, className}: {text: string, className: string}) => {
   return (
-    <h1 className='font-[600] text-[45px] text-[#001914]'>{text}</h1>
+    <h1 className={`font-[600] text-[45px] ${className}`}>{text}</h1>
   )
 }
 

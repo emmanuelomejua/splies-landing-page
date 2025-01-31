@@ -18,8 +18,8 @@ const ForYou = () => {
             <div className="flex flex-1 flex-col justify-center h-full gap-5">
                 <div className="flex flex-col justify-center gap-2">
                     <span className="rounded-full border-[1px] text-Green py-[10px] px-[24px] font-[500] text-sm w-max">FOR YOU</span>
-                    <H1 text='Increase bookings by up to 25%' />
-                    <P text='Splice boosts salon and wellness bookings by up to 25%, reduces missed appointments, and increases revenue.' />
+                    <H1 text='Increase bookings by up to 25%' className='text-[#001914]' />
+                    <P text='Splice boosts salon and wellness bookings by up to 25%, reduces missed appointments, and increases revenue.' className='text-[#001914]'/>
                 </div>
 
                 <div className="flex flex-col mt-2 gap-3">
