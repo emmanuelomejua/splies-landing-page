@@ -15,8 +15,8 @@ const ListCard = ({item}: {item: CardType} ) => {
         </div>
 
         <div className="flex flex-col gap-1">
-            <h4 className='text-[#777676] font-[600] text-[16px]'>{item.title}</h4>
-            <p className='text-[#777676] font-[500] text-[16px]'>{item.text}</p>
+            <h4 className='text-[#777676] font-[600] text-[16px] font-semibold'>{item.title}</h4>
+            <p className='text-[#777676] font-[500] text-[16px] font-regular'>{item.text}</p>
         </div>
     </div>
   )

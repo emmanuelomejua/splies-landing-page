@@ -15,7 +15,7 @@ interface BoxType {
 
 const Box: FC<BoxType> = ({text, text1, text2, data}) => {
   return (
-    <div className="flex">
+    <div className="flex flex-col">
         <div className='flex flex-col justify-center gap-2'>
              <Title text={text}/>
             <H1 text={text1} className='text-[#001914]' />

@@ -42,9 +42,9 @@ const Hero = () => {
 
       <div className="flex max-w-[1200px] w-full mx-auto h-full gap-[40px]">
         <div className="flex flex-[2] flex-col gap-[20px] justify-center items-center">
-          <h1 className='font-[600] text-[60px] text-White2'>Africa's all-in-one booking, payment & business management solution</h1>
+          <h1 className='font-[600] font-bold text-[60px] text-White2'>Africa's all-in-one booking, payment & business management solution</h1>
 
-          <p className='text-[#EEEEEE] text-[18px]'>All-in-one booking software to grow your business in Africa. Book appointments, manage clients, get paid - all in one place.</p>
+          <p className='text-[#EEEEEE] text-[18px] font-regular'>All-in-one booking software to grow your business in Africa. Book appointments, manage clients, get paid - all in one place.</p>
 
           <div className="flex items-center gap-6 justify-start self-start">
             <Button text='Get Started' className='text-Green bg-White2 w-[200px]'/>

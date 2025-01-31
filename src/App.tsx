@@ -7,6 +7,7 @@ import WhatClient from './sections/whatclient/WhatClient';
 import CoreBenefits from './sections/corebenefits/CoreBenefits';
 import StayOrganized from './sections/organized/StayOrganized';
 import YourBusiness from './sections/yourbusiness/YourBusiness';
+import Footer from './sections/footer/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <CoreBenefits/>
       <StayOrganized/>
       <YourBusiness/>
+      <Footer/>
     </main>
   );
 }

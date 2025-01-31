@@ -30,7 +30,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between">
         {/* Company Info */}
         <div className="mb-8 md:mb-0">
-          <img src='/icons/spice-image.svg' alt=""/>
+          <img src='/icons/splice-image.svg' alt=""/>
           <p className="mt-2 text-sm md:w-[70%] font-regular text-[14px] text-[#656565]">
             All-in-one booking, payments and business management solution for
             Africa.

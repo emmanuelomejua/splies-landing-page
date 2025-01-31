@@ -18,7 +18,7 @@ const ForYou = () => {
             </div>
 
             <div className="flex flex-1 flex-col justify-center h-full gap-5">
-                <Box text='' text1='' text2='' data={forYouData} />
+                <Box text='FOR YOU' text1='Increase bookings by up to 25%' text2='Splice boosts salon and wellness bookings by up to 25%, reduces missed appointments, and increases revenue.' data={forYouData} />
                 {/* <div className="flex flex-col justify-center gap-2">
                     <Title text='FOR YOU' />
                     <H1 text='Increase bookings by up to 25%' className='text-[#001914]' />
