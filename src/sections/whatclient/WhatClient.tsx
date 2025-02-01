@@ -1,6 +1,7 @@
 import React from 'react'
 import H1 from '../../components/H1';
 import P from '../../components/P';
+import Testimonial from './Testimonial';
 
 const WhatClient = () => {
   return (
@@ -10,8 +11,21 @@ const WhatClient = () => {
       <P text='See how Splice has transformed businesses. Here’s what our clients have to say.' className='text-[#001914]' />
 
 
-      <div className="flex w-[994px]">
-
+      <div className="flex w-[994px] flex-wrap">
+            {/* @ts-ignore */}
+        <Testimonial data={[]} />
+            {/* @ts-ignore */}
+        <Testimonial data={[]} />
+            {/* @ts-ignore */}
+        <Testimonial data={[]} />
+            {/* @ts-ignore */}
+        <Testimonial data={[]} />
+            {/* @ts-ignore */}
+        <Testimonial data={[]} />
+                   {/* @ts-ignore */}
+        <Testimonial data={[]} />
+            {/* @ts-ignore */}
+        <Testimonial data={[]} />
       </div>
     </div>
   )

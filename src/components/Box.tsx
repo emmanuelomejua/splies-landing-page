@@ -24,7 +24,7 @@ const Box: FC<BoxType> = ({text, text1, text2, data}) => {
 
         <div className="flex flex-col mt-2 gap-3">
             { data.map((item: any) => (
-                <ListCard item={item}/>
+                <ListCard item={item} key={item}/>
             ))
             }
 
