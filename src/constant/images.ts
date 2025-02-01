@@ -8,7 +8,11 @@ import booking2 from '../assets/svgs/booking2.svg';
 import booking1 from '../assets/svgs/booking3.svg'
 import booking17 from '../assets/svgs/booking17.svg';
 import bookings from '../assets/svgs/bookings.svg';
-import Bookings from '../assets/svgs/Booking.svg'
+import Bookings from '../assets/svgs/Booking.svg';
+import calenda from '../assets/svgs/calenda.svg';
+import bizperformance from '../assets/svgs/biz-performance.svg';
+import web from '../assets/svgs/web.svg';
+import mary from '../assets/svgs/mary.svg';
 
 
 export {
@@ -22,5 +26,9 @@ export {
     booking17,
     booking2,
     bookings,
-    Bookings
+    Bookings,
+    calenda,
+    bizperformance,
+    web,
+    mary
 }

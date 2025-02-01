@@ -1,5 +1,5 @@
 import React from 'react';
-import { maryChina } from '../../constant/images';
+import { maryChina, mary } from '../../constant/images';
 
 const MaryChina = () => {
   return (
@@ -8,8 +8,8 @@ const MaryChina = () => {
       backgroundSize: 'cover', 
       backgroundRepeat: 'no-repeat', 
       backgroundColor: '#032721' }} 
-      className='h-[720px]'>
-
+      className='h-[720px] relative'>
+        <img src={mary} alt="" className="absolute w-[400px] h-[160px] bottom-4 right-4" />
       </div>
   )
 }
