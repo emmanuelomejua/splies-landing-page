@@ -130,9 +130,10 @@ export const headingData = [
         plan: 'Basic plan',
         bgColor: '#C34C2A0A',
         price: 'Free',
-        dec: 'Your starter plan to get started with your beauty clients.',
+        desc: 'Your starter plan to get started with your beauty clients.',
         features: [
-
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
         ]
     },
     {
@@ -141,7 +142,14 @@ export const headingData = [
         price: '₦25,000.00/month',
         desc: 'Perfect for solopreneurs to book, manage, and grow effortlessly.',
         features: [
-
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
         ]
         
     },
@@ -151,6 +159,14 @@ export const headingData = [
         price: '₦100,000.00/month',
         desc: 'Ideal for businesses looking to grow and thrive.',
         features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
 
         ]
         
@@ -161,20 +177,25 @@ export const headingData = [
         price: '₦165,000.00/month',
         desc: 'Unlock 2 locations for ₦300,000, or 3 locations for just ₦450,000.',
         features: [
-            {icon: ''},
-            {icon: ''},
-            {icon: ''},
-            {icon: ''},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
         ]
         
     },
     {
         plan: 'Enterprise',
         bgColor: '#2B65EF0A',
+        width: '263px',
         price: 'Talk to Sales',
         desc: 'More than 3 locations? Get customized pricing.',
-        features: [],
-        text: "Send us an email to info@withsplice.com"
+        text: "Send us an email to",
+        text1: 'info@withsplice.com'
     },
 
 ]
