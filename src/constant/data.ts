@@ -84,3 +84,33 @@ export const testimonial = [
         title: 'Hair Stylist'
     },
 ]
+
+
+
+export const benefits = [
+    {
+        title: 'Online bookings',
+        text: 'Say goodbye to pen and paper or clunky software - Splice provides the easiest way for your customers to book appointments. Accept bookings anytime.',
+        img: ''
+    },
+    {
+        title: 'Payments',
+        text: 'Splice makes it easy to accept payments with multiple options including online payments and instant transfers. No matter what payment option your customers prefer, Splice has you covered.',
+        img: ''
+    },
+    {
+        title: 'Messaging',
+        text: "Splice helps you stay on top of your customer relationship. With automated emails and sms, you're always in touch with your customers.",
+        img: ''
+    },
+    {
+        title: '',
+        text: '',
+        img: ''
+    },
+    {
+        title: '',
+        text: '',
+        img: ''
+    },
+]
