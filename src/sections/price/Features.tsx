@@ -6,11 +6,11 @@ const Features = () => {
   return (
     <div className="flex gap-4 ">
         <Board/>
-        <Board/>
-        <Board/>
-        <Board/>
-        <Board/>
-        <Board/>
+        <Board header/>
+        <Board header/>
+        <Board header/>
+        <Board header/>
+        <Board header/>
     </div>
   );
 };

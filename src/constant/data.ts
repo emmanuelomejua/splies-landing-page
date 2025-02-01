@@ -124,3 +124,59 @@ export const benefits = [
         img: ''
     },
 ]
+
+
+export const heaingData = [
+    {
+        plan: 'Basic plan',
+        price: 'Free',
+        dec: 'Your starter plan to get started with your beauty clients.'
+    },
+    {
+        plan: 'Splice Solo',
+        price: '₦25,000.00/month',
+        desc: 'Perfect for solopreneurs to book, manage, and grow effortlessly.'
+    },
+    {
+        plan: 'Standard',
+        price: '₦100,000.00/month',
+        desc: 'Ideal for businesses looking to grow and thrive.'
+    },
+    {
+        plan: 'Pro',
+        price: '₦165,000.00/month',
+        desc: 'Unlock 2 locations for ₦300,000, or 3 locations for just ₦450,000.'
+    },
+
+]
+
+
+export const headers = [
+    {name: '25 appointments/month'},
+    {name: '24/7 online booking'},
+    {name: 'Customizable website'},
+    {name: 'Cover photo customization'},
+   { name: 'Accent colors customization'},
+    {name: 'Portfolio image gallery'},
+    {name: 'Service creation & management'},
+    {name: 'Gap time'},
+    {name: 'Service options'},
+    {name: 'Processing time'},
+    {name: 'Custom booking approval'},
+    {name: 'Built-in deposits'},
+    {name: 'Drag & drop scheduling on desktop'},
+    {name: 'Customizable cancellation policy'},
+    {name: 'Card on file rules'},
+    {name: 'Website reviews'},
+    {name: 'Desktop, tablet & mobile access'},
+    {name: 'Packages'},
+    {name: 'Memberships'},
+    {name: 'Multi-service provider booking'},
+    {name: 'Built-in forms and waivers'},
+    {name: 'Rebooking reminders'},
+    {name: 'Premium customizations'},
+    {name: 'Google reviews'},
+    {name: 'Teams of 10 or more'},
+]
+
+
