@@ -134,6 +134,20 @@ export const headingData = [
         features: [
             {icon: '/icons/solid.svg'},
             {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
         ]
     },
     {
@@ -150,6 +164,16 @@ export const headingData = [
             {icon: '/icons/solid.svg'},
             {icon: '/icons/solid.svg'},
             {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
         ]
         
     },
@@ -167,6 +191,16 @@ export const headingData = [
             {icon: '/icons/solid.svg'},
             {icon: '/icons/solid.svg'},
             {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
 
         ]
         
@@ -185,6 +219,16 @@ export const headingData = [
             {icon: '/icons/solid.svg'},
             {icon: '/icons/solid.svg'},
             {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
         ]
         
     },
