@@ -1,3 +1,6 @@
+import { benefit1, benefits2 } from "./images"
+
+
 export const forYouData = [
     {
         icon: '/foryou/on-time.svg',
@@ -91,61 +94,87 @@ export const benefits = [
     {
         title: 'Online bookings',
         text: 'Say goodbye to pen and paper or clunky software - Splice provides the easiest way for your customers to book appointments. Accept bookings anytime.',
-        img: ''
+        img: benefit1
     },
     {
         title: 'Payments',
         text: 'Splice makes it easy to accept payments with multiple options including online payments and instant transfers. No matter what payment option your customers prefer, Splice has you covered.',
-        img: ''
+        img: benefits2
     },
     {
         title: 'Messaging',
         text: "Splice helps you stay on top of your customer relationship. With automated emails and sms, you're always in touch with your customers.",
-        img: ''
+        img: benefit1
     },
     {
-        title: '',
-        text: '',
-        img: ''
+        title: 'Online bookings',
+        text: 'Say goodbye to pen and paper or clunky software - Splice provides the easiest way for your customers to book appointments. Accept bookings anytime.',
+        img: benefit1
     },
     {
-        title: '',
-        text: '',
-        img: ''
+        title: 'Payments',
+        text: 'Splice makes it easy to accept payments with multiple options including online payments and instant transfers. No matter what payment option your customers prefer, Splice has you covered.',
+        img: benefits2
     },
     {
-        title: '',
-        text: '',
-        img: ''
+        title: 'Messaging',
+        text: "Splice helps you stay on top of your customer relationship. With automated emails and sms, you're always in touch with your customers.",
+        img: benefit1
     },
-    {
-        title: '',
-        text: '',
-        img: ''
-    },
+
 ]
 
 
-export const heaingData = [
+export const headingData = [
     {
         plan: 'Basic plan',
+        bgColor: '#C34C2A0A',
         price: 'Free',
-        dec: 'Your starter plan to get started with your beauty clients.'
+        dec: 'Your starter plan to get started with your beauty clients.',
+        features: [
+
+        ]
     },
     {
         plan: 'Splice Solo',
+        bgColor: '#D680020A',
         price: '₦25,000.00/month',
-        desc: 'Perfect for solopreneurs to book, manage, and grow effortlessly.'
+        desc: 'Perfect for solopreneurs to book, manage, and grow effortlessly.',
+        features: [
+
+        ]
+        
     },
     {
         plan: 'Standard',
+        bgColor: '#16796F0A',
         price: '₦100,000.00/month',
-        desc: 'Ideal for businesses looking to grow and thrive.'
+        desc: 'Ideal for businesses looking to grow and thrive.',
+        features: [
+
+        ]
+        
     },
     {
         plan: 'Pro',
+        bgColor: '#8A69AC0A',
         price: '₦165,000.00/month',
-        desc: 'Unlock 2 locations for ₦300,000, or 3 locations for just ₦450,000.'
+        desc: 'Unlock 2 locations for ₦300,000, or 3 locations for just ₦450,000.',
+        features: [
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+        ]
+        
+    },
+    {
+        plan: 'Enterprise',
+        bgColor: '#2B65EF0A',
+        price: 'Talk to Sales',
+        desc: 'More than 3 locations? Get customized pricing.',
+        features: [],
+        text: "Send us an email to info@withsplice.com"
     },
 
 ]
@@ -156,7 +185,7 @@ export const headers = [
     {name: '24/7 online booking'},
     {name: 'Customizable website'},
     {name: 'Cover photo customization'},
-   { name: 'Accent colors customization'},
+    {name: 'Accent colors customization'},
     {name: 'Portfolio image gallery'},
     {name: 'Service creation & management'},
     {name: 'Gap time'},
@@ -169,8 +198,8 @@ export const headers = [
     {name: 'Card on file rules'},
     {name: 'Website reviews'},
     {name: 'Desktop, tablet & mobile access'},
-    {name: 'Packages'},
-    {name: 'Memberships'},
+    {name: 'Packages', soon: 'coming soon'},
+    {name: 'Memberships', soon: 'coming soon'},
     {name: 'Multi-service provider booking'},
     {name: 'Built-in forms and waivers'},
     {name: 'Rebooking reminders'},

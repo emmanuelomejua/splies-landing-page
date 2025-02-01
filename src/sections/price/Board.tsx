@@ -1,27 +1,27 @@
 import React, { FC } from 'react'
 import Card from './Card';
 import Title from './Title';
-import Header from './Header';
+import { headers } from '../../constant/data';
 
 
 
 type BType = {
-    header?: boolean;
+    text: string;
+    className?: string;
 }
 
-const Board:FC<BType> = ({header}) => {
+const Board:FC<BType> = ({text, className}) => {
   return (
-    <div className='flex flex-col gap-4 bg-[#C34C2A0A] rounded-[4px] p-[10px] w-[200px]'>
-        <Title title=''/>
-        {header && <Header/>}
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-    </div>
+    <div className={`flex flex-col gap-4 rounded-[4px] p-[10px] ${className}`}>
+        <Title title={text}/>
+        {headers.map((h) => (
+            <Card data={h}/>
+        ))}
+    </div> 
   )
 }
 
 export default Board;
+
+
+// bg-[#C34C2A0A]

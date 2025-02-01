@@ -16,7 +16,8 @@ import mary from '../assets/svgs/mary.svg';
 import getstarted from '../assets/svgs/getstarted.svg';
 import getstarted1 from '../assets/svgs/getstarted1.svg';
 import getstarted2 from '../assets/svgs/getstarted2.svg';
-import benefit1 from '../assets/svgs/hero1.svg'
+import benefit1 from '../assets/svgs/hero1.svg';
+import benefits2 from '../assets/svgs/benefits2.svg';
 
 
 
@@ -39,5 +40,7 @@ export {
     getstarted,
     getstarted1,
     getstarted2,
-    benefit1
+    benefit1,
+    benefits2,
+    
 }

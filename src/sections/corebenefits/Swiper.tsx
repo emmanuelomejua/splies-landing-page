@@ -25,7 +25,7 @@ const SwiperComponent = () => {
         >
             {benefits.map((benefit) => (
                 <SwiperSlide>
-                    <BenefitsCard/>
+                    <BenefitsCard title={benefit.title} text={benefit.text} img={benefit.img}/>
                 </SwiperSlide>
             ))}
         </Swiper>

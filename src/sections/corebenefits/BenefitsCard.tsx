@@ -1,17 +1,23 @@
-import React from 'react'
+import React, { FC } from 'react'
 import P from '../../components/P';
-import { benefit1 } from '../../constant/images';
 
 
-const BenefitsCard = () => {
+type BType = {
+    title: string;
+    text: string;
+    img: string;
+}
+
+
+const BenefitsCard: FC<BType> = ({title, text, img}) => {
   return (
     <div className='bg-[#E5F6F466] flex flex-col gap-4 w-[540] h-[450px] rounded-[8px]'>
         <div className="flex flex-col p-4">
-            <h4 className='font-semibold font-600 leading-[32px]'>Online bookings</h4>
-            <P text='Say goodbye to pen and paper or clunky software - Splice provides the easiest way for your customers to book appointments. Accept bookings anytime.' className='' />
+            <h4 className='font-semibold font-600 leading-[32px]'>{title}</h4>
+            <P text={text} className='' />
         </div>
 
-        <img src={benefit1} alt="" className="h-[300px] ml-4" />
+        <img src={img} alt="" className="h-[300px] ml-4" />
     </div>
   )
 }
