@@ -34,7 +34,7 @@ export const yourBizData = [
         text: 'Access detailed performance and customer reports.'
     },
     {
-        icon: '/yourbiz/bar.png',
+        icon: '/yourbiz/solar.png',
         title: 'Offer Vouchers and Packages',
         text: 'Manage custom vouchers to attract and retain clients.'
     },

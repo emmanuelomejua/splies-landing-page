@@ -8,11 +8,12 @@ import CoreBenefits from './sections/corebenefits/CoreBenefits';
 import StayOrganized from './sections/organized/StayOrganized';
 import YourBusiness from './sections/yourbusiness/YourBusiness';
 import Footer from './sections/footer/Footer';
+import BoostBrand from './sections/boostbrand/BoostBrand';
 
 
 function App() {
   return (
-    <main className="">
+    <main className="overflow-x-hidden">
       <Announcement/>
       <Hero/>
       <ForYou/>
@@ -22,6 +23,7 @@ function App() {
       <CoreBenefits/>
       <StayOrganized/>
       <YourBusiness/>
+      <BoostBrand />
       <Footer/>
     </main>
   );
