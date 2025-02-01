@@ -9,9 +9,9 @@ import { booking1, booking17, booking2 } from '../../constant/images'
 const BoostBrand = () => {
   return (
     <div className='bg-Green h-[850px] flex p-4 gap-[100px]'>
-        <div className="flex flex-col flex-1 justify-center mx-auto gap-5">
+        <div className="flex flex-col flex-1 justify-center ml-auto gap-5 p-[20px]">
             <H1 text='Boost Your Brand with Effortless Online Engagement' className='text-White2' /> 
-            <P text='Elevate your brand with a sleek online platform where customers can effortlessly book appointments and stay engaged with your services.' className='text-White2' />
+            <P text='Elevate your brand with a sleek online platform where customers can effortlessly book appointments and stay engaged with your services.' className='text-White2 w-[472px]' />
 
             <Button text='Get Started' className='bg-White2 text-Green w-max' />
         </div>

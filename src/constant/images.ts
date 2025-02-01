@@ -6,7 +6,9 @@ import calender from '../assets/calender.png';
 import summary from '../assets/summary.svg';
 import booking2 from '../assets/svgs/booking2.svg';
 import booking1 from '../assets/svgs/booking3.svg'
-import booking17 from '../assets/svgs/booking17.svg'
+import booking17 from '../assets/svgs/booking17.svg';
+import bookings from '../assets/svgs/bookings.svg';
+import Bookings from '../assets/svgs/Booking.svg'
 
 
 export {
@@ -18,5 +20,7 @@ export {
     summary,
     booking1,
     booking17,
-    booking2
+    booking2,
+    bookings,
+    Bookings
 }

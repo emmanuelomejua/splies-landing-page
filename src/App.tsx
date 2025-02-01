@@ -9,6 +9,10 @@ import StayOrganized from './sections/organized/StayOrganized';
 import YourBusiness from './sections/yourbusiness/YourBusiness';
 import Footer from './sections/footer/Footer';
 import BoostBrand from './sections/boostbrand/BoostBrand';
+import Customers from './sections/Customers';
+import More from './sections/More';
+import Price from './sections/price/Price';
+import GetStarted from './sections/getstarted/GetStarted';
 
 
 function App() {
@@ -24,6 +28,10 @@ function App() {
       <StayOrganized/>
       <YourBusiness/>
       <BoostBrand />
+      <Customers/>
+      <Price/>
+      <More/>
+      <GetStarted/>
       <Footer/>
     </main>
   );
