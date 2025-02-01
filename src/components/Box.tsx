@@ -18,8 +18,8 @@ const Box: FC<BoxType> = ({text, text1, text2, data}) => {
     <div className="flex flex-col">
         <div className='flex flex-col justify-center gap-2'>
              <Title text={text}/>
-            <H1 text={text1} className='text-[#001914]' />
-            <P text={text2} className='text-[#001914]'/>
+            <H1 text={text1}  />
+            <P text={text2} className='text-[#656565]'/>
         </div>
 
         <div className="flex flex-col mt-2 gap-3">
@@ -27,7 +27,6 @@ const Box: FC<BoxType> = ({text, text1, text2, data}) => {
                 <ListCard item={item} key={item}/>
             ))
             }
-
         </div>
     </div>
   )

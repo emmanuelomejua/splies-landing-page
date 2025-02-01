@@ -23,7 +23,7 @@ const list = [
 const GetStarted = () => {
   return (
     <div className='bg-Green min-h-[870px] px-4 gap-4 flex flex-col'>
-        <H1 text='Get started with Splice' className='text-White2 text-center mt-[50px]' />
+        <H1 text='Get started with Splice' className=' text-center mt-[50px]' white/>
         <Button text='Get started' className='bg-White2 text-Green mx-auto flex' />
 
         <div className="flex gap-5 mt-auto justify-around w-full">

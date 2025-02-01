@@ -13,7 +13,7 @@ const CoreBenefits = () => {
     <div className='flex flex-col gap-4 my-[50px] mx-auto max-w-[1200px] w-full p-4'>
         <div className="flex justify-between items-center">
             <div className="flex flex-col w-[590px]">
-                <H1 text='Our core benefits' className='text-[#001914]'/>
+                <H1 text='Our core benefits' />
                 <P text='Our all-in-one management software automates scheduling, manages customer data, processes payments, and more. Perfect for businesses like yours.' className='text-[#001914]'/>
             </div>
 
