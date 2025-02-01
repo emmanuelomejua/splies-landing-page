@@ -113,4 +113,14 @@ export const benefits = [
         text: '',
         img: ''
     },
+    {
+        title: '',
+        text: '',
+        img: ''
+    },
+    {
+        title: '',
+        text: '',
+        img: ''
+    },
 ]

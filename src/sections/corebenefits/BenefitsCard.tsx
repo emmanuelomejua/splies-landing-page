@@ -11,7 +11,7 @@ const BenefitsCard = () => {
             <P text='Say goodbye to pen and paper or clunky software - Splice provides the easiest way for your customers to book appointments. Accept bookings anytime.' className='' />
         </div>
 
-        <img src={benefit1} alt="" className="h-[300px]" />
+        <img src={benefit1} alt="" className="h-[300px] ml-4" />
     </div>
   )
 }

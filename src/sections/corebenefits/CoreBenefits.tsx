@@ -2,7 +2,10 @@ import React from 'react'
 import H1 from '../../components/H1';
 import P from '../../components/P';
 import Button from '../../components/buttons/Button';
-import BenefitsCard from './BenefitsCard';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import SwiperComponent from './Swiper';
 
 
 const CoreBenefits = () => {
@@ -17,14 +20,8 @@ const CoreBenefits = () => {
           <Button text='Get Started' className='bg-Green text-White2 w-[165px] h-[45px]'/>
         </div>
 
-        <section className="flex gap-7">
-          <BenefitsCard/>
-          <BenefitsCard/>
-          {/* <BenefitsCard/>
-          <BenefitsCard/>
-          <BenefitsCard/>
-          <BenefitsCard/> */}
-        </section>
+        <SwiperComponent />
+
     </div>
   )
 }
