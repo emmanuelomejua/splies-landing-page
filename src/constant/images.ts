@@ -13,6 +13,10 @@ import calenda from '../assets/svgs/calenda.svg';
 import bizperformance from '../assets/svgs/biz-performance.svg';
 import web from '../assets/svgs/web.svg';
 import mary from '../assets/svgs/mary.svg';
+import getstarted from '../assets/svgs/getstarted.svg';
+import getstarted1 from '../assets/svgs/getstarted1.svg';
+import getstarted2 from '../assets/svgs/getstarted2.svg';
+
 
 
 export {
@@ -30,5 +34,8 @@ export {
     calenda,
     bizperformance,
     web,
-    mary
+    mary,
+    getstarted,
+    getstarted1,
+    getstarted2
 }
