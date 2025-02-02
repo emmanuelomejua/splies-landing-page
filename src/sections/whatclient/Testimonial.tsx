@@ -14,7 +14,7 @@ type TType = {
 const Testimonial = ({data}: {data: TType}) => {
   return (
     <div style={{height: data.height, width: data.width}}
-      className='flex flex-col py-[32px] px-[24px] gap-[10px] '>
+      className='flex flex-col py-[32px] px-[24px] gap-[10px]'>
         <p className='font-regular font-[500] text-[16px] text-Green leading-[21px]'>{data.text}</p>
 
         <div className="flex gap-2">

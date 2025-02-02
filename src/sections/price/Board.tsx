@@ -12,7 +12,8 @@ type BType = {
 
 const Board:FC<BType> = ({text, className}) => {
   return (
-    <div className={`flex flex-col gap-4 rounded-[4px] p-[10px] ${className}`}>
+    <div className={`flex flex-col gap-4 rounded-[4px] px-[10px] ${className}`}>
+        <div className="h-[160px]"></div>
         <Title title={text}/>
         {headers.map((h) => (
             <Card data={h}/>

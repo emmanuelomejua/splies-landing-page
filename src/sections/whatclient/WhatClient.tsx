@@ -16,7 +16,7 @@ const WhatClient = () => {
       {testimonial.map((data, index) => (
           <div
             key={index}
-            className={` ${index < 3 ? 'flex justify-center' : 'flex items-end'} odd:bg-[#16796F08] odd:shadow-sm`}
+            className={` ${index < 3 ? 'flex justify-center' : 'flex items-end'} odd:bg-[#16796F08] odd:shadow-sm rounded-[8px]`}
           >
             <Testimonial data={data} />
           </div>

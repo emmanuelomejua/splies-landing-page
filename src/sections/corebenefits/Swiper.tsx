@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import BenefitsCard from './BenefitsCard';
 import { benefits } from '../../constant/data';
-// import Swiper from 'swiper';
+
 
 
 const SwiperComponent = () => {
