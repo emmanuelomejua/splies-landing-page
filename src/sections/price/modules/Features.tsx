@@ -6,8 +6,8 @@ import { headingData, headers } from '../../../constant/data'
 
 const Features = () => {
   return (
-    <div className="flex gap-3 mt-[40px]">
-        <Board text="Booking" className="w-[260px]" data={headers} isFeature/>
+    <div className="flex gap-2 mt-[40px]">
+        <Board text="Booking" className="w-[300px]" data={headers} isFeature/>
         {
             headingData.map((data) => (
                 <Board2 className={`w-[200px]`} data={data} isBooking/>

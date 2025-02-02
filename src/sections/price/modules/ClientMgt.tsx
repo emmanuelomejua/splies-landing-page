@@ -9,7 +9,7 @@ const ClientMgt = () => {
   return (
     <div className="flex flex-col">
         <div className='flex gap-2 mt-[40px]'>
-            <Board text='Client management' data={clientmgt} className='w-[280px]'/>
+            <Board text='Client management' data={clientmgt} className='w-[300px]'/>
             {
                 clientmgtData.map((data) => (
                     <Board2 className={`w-[200px]`} data={data} others/>

@@ -7,12 +7,12 @@ import { teamMgt, teamMgtData } from '../../../constant/data';
 const TeamMgt = () => {
   return (
     <div className='flex gap-2 mt-[40px]'>
-        <Board text='Team Management' data={teamMgt} className='w-[280px]'/>
+        <Board text='Team Management' data={teamMgt} className='w-[300px]'/>
         {
             teamMgtData.map((data) => (
                 <Board2 className={`w-[200px]`} data={data} others/>
             ))
-            }
+        }
         <SendusEmail/>
     </div>
   )

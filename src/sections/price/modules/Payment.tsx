@@ -8,7 +8,7 @@ import SendusEmail from '../SendusEmail';
 const Payment = () => {
   return (
     <div className='flex gap-2 mt-[40px]'>
-        <Board text='Payment' data={payment} className='w-[280px]'/>
+        <Board text='Payment' data={payment} className='w-[300px]'/>
         {
             paymentData.map((data) => (
                 <Board2 className={`w-[200px`} data={data} others />

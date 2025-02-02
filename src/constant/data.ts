@@ -637,20 +637,78 @@ export const teamMgtData = [
 
 
 export const reporting = [
-    {name: ''},
-    {name: ''},
-    {name: ''},
-    {name: ''},
-    {name: ''},
-    {name: ''},
-    {name: ''},
-    {name: ''},
-    {name: ''},
-    {name: ''},
-    {name: ''},
-    {name: ''},
-    {name: ''},
-    {name: ''},
-    {name: ''},
-    {name: ''},
+    {name: 'Basic reporting'},
+    {name: 'Expense tracking'},
+    {name: 'Sales report'},
+    {name: 'Sales tax report'},
+    {name: 'Appointment report'},
+    {name: 'Expenses report'},
+    {name: 'Commission report'},
+    {name: 'Utilization & retention report'},
+    {name: 'Teams of 10 or more'},
+    {name: 'Scorecard & analytics for unlimited users'},
+]
+
+
+export const reportData = [
+    {
+        bgColor: '#C34C2A0A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+        ]
+    },
+    {
+        bgColor: '#D680020A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+        ]
+    },
+    {
+        bgColor: '#16796F0A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+        ]
+    },
+    {
+        bgColor: '#8A69AC0A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+        ]
+    }
 ]
