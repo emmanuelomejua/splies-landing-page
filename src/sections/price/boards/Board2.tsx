@@ -13,7 +13,7 @@ type BType = {
 const Board2:FC<BType> = ({className, data, isBooking, others }) => {
   return (
     <div 
-        className={`flex flex-col w-[200px] gap-4 rounded-[4px] p-[10px] ${others && 'pt-[65px]'} ${className}`} 
+        className={`flex flex-col w-[200px] gap-4 rounded-[4px] p-[10px] ${others && 'pt-[63px]'} ${className}`} 
         style={{backgroundColor: `${data.bgColor}`, height:  `${data?.width}`, }}>
 
        {isBooking && 
