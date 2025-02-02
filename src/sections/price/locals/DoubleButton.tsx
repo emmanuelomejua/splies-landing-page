@@ -1,14 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 const DoubleButton = () => {
+  const [active, setActive] = useState('Choose plan');
 
   return (
-    <div className='rounded-full w-[436px] shadow-xl h-[48px] flex'>
-        <span className="w-full rounded-l-full flex items-center justify-center bg-[#EAECF0] text-Green text-sm font-[500] leading-[17px] cursor-pointer font-regular">Choose plan</span>
-
-        <span className="w-full rounded-r-full flex items-center justify-center text-[#9AA2A5] leading-[17px] text-sm font-[500] cursor-pointer font-regular">Customize your plan</span>
+    <div className="rounded-full w-[436px] shadow-xl h-[48px] flex">
+      {['Choose plan', 'Customize your plan'].map((label, index) => (
+        <span
+          key={index}
+          className={`w-full flex items-center justify-center text-sm font-[500] leading-[17px] cursor-pointer transition-all duration-300
+            ${index === 0 && 'rounded-l-full'}
+            ${active === label ? 'bg-[#EAECF0] text-Green' : 'bg- text-[#9AA2A5]'}
+            ${index === 1 && 'rounded-r-full'} `}
+            onClick={() => setActive(label)}
+        >
+          {label}
+        </span>
+      ))}
     </div>
-  )
-}
+  );
+};
 
 export default DoubleButton;
