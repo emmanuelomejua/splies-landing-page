@@ -1,7 +1,7 @@
 const DesignBtn = ({ text, className }: {text: string, className: string}) => {
     return (
       <div className={`relative inline-block ${className}`}>
-        <button className="bg-[#4A7B6E] text-white text-lg font-medium px-6 py-2 rounded-full shadow-md">
+        <button className="bg-[#4A7B6E] text-white text-lg font-medium px-6 py-3 rounded-full shadow-md">
           {text}
         </button>
   
