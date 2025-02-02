@@ -1,8 +1,8 @@
 import React from 'react'
 import H1 from '../../components/H1';
-import DoubleButton from './DoubleButton';
-import SubMenu from './SubMenu';
-import Features from './Features';
+import DoubleButton from './locals/DoubleButton';
+import SubMenu from './locals/SubMenu';
+import Features from './modules/Features';
 import Payment from './modules/Payment';
 import ClientMgt from './modules/ClientMgt';
 

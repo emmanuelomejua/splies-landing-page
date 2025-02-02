@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
-import Card2 from './Card2';
-import Header from './Header';
+import Card2 from '../cards/Card2';
+import Header from '../locals/Header';
 
 
 type BType = {

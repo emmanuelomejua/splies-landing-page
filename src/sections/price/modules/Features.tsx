@@ -1,7 +1,7 @@
 import React from "react";
-import Board from "./Board";
-import Board2 from "./Board2";
-import { headingData, headers } from '../../constant/data'
+import Board from "../boards/Board";
+import Board2 from "../boards/Board2";
+import { headingData, headers } from '../../../constant/data'
 
 
 const Features = () => {

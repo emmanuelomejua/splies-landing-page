@@ -470,3 +470,67 @@ export const clientmgt = [
     {name: 'Waitlist'},
     {name: 'Teams of 10 or more'},
 ]
+
+
+export const  clientmgtData = [
+    {
+        bgColor: '#C34C2A0A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+        ]
+    },
+    {
+        bgColor: '#D680020A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+        ]
+    },
+    {
+        bgColor: '#16796F0A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+        ]
+    },
+    {
+        bgColor: '#8A69AC0A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+        ]
+    }
+]

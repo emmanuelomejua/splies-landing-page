@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
-import Card from './Card';
-import Title from './Title';
+import Card from '../cards/Card';
+import Title from '../locals/Title';
 
 
 

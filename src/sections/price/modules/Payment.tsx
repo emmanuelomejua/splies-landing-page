@@ -1,6 +1,6 @@
 import React from 'react';
-import Board from '../Board';
-import Board2 from '../Board2';
+import Board from '../boards/Board';
+import Board2 from '../boards/Board2';
 import { payment, paymentData } from '../../../constant/data';
 import SendusEmail from '../SendusEmail';
 
