@@ -301,6 +301,109 @@ export const headingData = [
 
 ]
 
+export const paymentData = [
+    {
+        bgColor: '#C34C2A0A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+        ]
+    },
+    {
+        bgColor: '#D680020A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+        ]
+    },
+    {
+        bgColor: '#16796F0A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+        ]
+    },
+    {
+        bgColor: '#8A69AC0A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+        ]
+    },
+]
+
 
 export const headers = [
     {name: '25 appointments/month'},
@@ -331,3 +434,39 @@ export const headers = [
 ]
 
 
+export const payment = [
+   {name: 'Free next business day payouts'},
+   {name: 'Instant payouts'},
+   {name: 'Loans'},
+   {name: 'Built-in point of sale'},
+   {name: 'Accept any payment type'},
+   {name: 'Deposits at booking'},
+   {name: 'Cancellation fee'},
+   {name: 'Flat 2.6% processing rate'},
+   {name: 'Automatic sales tax calculations'},
+   {name: 'Stunning card readers'},
+   {name: 'Product sales & inventory management'},
+   {name: 'Split payments'},
+   {name: 'Customizable gratuity'},
+   {name: 'No transaction or key-in fees'},
+   {name: 'No lock-in contracts or upfront fees'},
+   {name: 'Secure, EMV Compliant'},
+   {name: 'Desktop, tablet & mobile access'},
+   {name: '100% chargeback protection'},
+   {name: 'Tap & Go card reader discount'},
+   {name: 'Teams of 10 or more'},
+]
+
+
+export const clientmgt = [
+    {name: 'Email reminders'},
+    {name: 'Unlimited clients'},
+    {name: 'Client notes for before & afters'},
+    {name: 'Reports on client history'},
+    {name: 'Custom cancellation policies'},
+    {name: 'Custom card-on-file rules'},
+    {name: 'Desktop, tablet & mobile access'},
+    {name: 'Smart forms and waivers'},
+    {name: 'Waitlist'},
+    {name: 'Teams of 10 or more'},
+]

@@ -3,6 +3,8 @@ import H1 from '../../components/H1';
 import DoubleButton from './DoubleButton';
 import SubMenu from './SubMenu';
 import Features from './Features';
+import Payment from './modules/Payment';
+import ClientMgt from './modules/ClientMgt';
 
 const Price = () => {
   return (
@@ -11,6 +13,8 @@ const Price = () => {
       <DoubleButton/>
       <SubMenu/>
       <Features/>
+      <Payment/>
+      <ClientMgt/>
     </div>
   )
 }
