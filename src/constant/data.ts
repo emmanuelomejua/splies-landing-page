@@ -560,7 +560,15 @@ export const teamMgtData = [
         bgColor: '#C34C2A0A',
         features: [
             {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
             {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
             {icon: ''},
             {icon: ''},
             {icon: ''},
@@ -573,6 +581,18 @@ export const teamMgtData = [
             {icon: '/icons/solid.svg'},
             {icon: '/icons/solid.svg'},
             {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            
         ]
     },
     {
@@ -582,6 +602,16 @@ export const teamMgtData = [
             {icon: '/icons/solid.svg'},
             {icon: '/icons/solid.svg'},
             {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
         ]
     },
     {
@@ -592,6 +622,35 @@ export const teamMgtData = [
             {icon: '/icons/solid.svg'},
             {icon: '/icons/solid.svg'},
             {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            { soon: 'Coming soon'},
+            { soon: 'Coming soon'},
         ]
     }
+]
+
+
+export const reporting = [
+    {name: ''},
+    {name: ''},
+    {name: ''},
+    {name: ''},
+    {name: ''},
+    {name: ''},
+    {name: ''},
+    {name: ''},
+    {name: ''},
+    {name: ''},
+    {name: ''},
+    {name: ''},
+    {name: ''},
+    {name: ''},
+    {name: ''},
+    {name: ''},
 ]

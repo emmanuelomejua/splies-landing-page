@@ -6,6 +6,7 @@ import Features from './modules/Features';
 import Payment from './modules/Payment';
 import ClientMgt from './modules/ClientMgt';
 import TeamMgt from './modules/TeamMgt';
+import Reporting from './modules/Reporting';
 
 const Price = () => {
   return (
@@ -17,6 +18,7 @@ const Price = () => {
       <Payment/>
       <ClientMgt/>
       <TeamMgt/>
+      <Reporting/>
     </div>
   )
 }
