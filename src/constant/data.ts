@@ -534,3 +534,64 @@ export const  clientmgtData = [
         ]
     }
 ]
+
+
+
+export const teamMgt = [
+    {name: 'One user/one calendar'},
+    {name: 'Desktop, tablet & mobile access'},
+    {name: 'Separate bank accounts'},
+    {name: 'Calendar management'},
+    {name: 'Synced staff calendar'},
+    {name: 'All staff or team member reports'},
+    {name: 'Pre-set roles to choose from'},
+    {name: 'Customizable permissions'},
+    {name: 'Commission reporting'},
+    {name: 'Time tracking'},
+    {name: 'Teams of 10 or more'},
+    {name: 'Goal setting for unlimited users'},
+    {name: 'Advanced staff activity logging'},
+    {name: 'Customizable commission structures'},
+]
+
+
+export const teamMgtData = [
+    {
+        bgColor: '#C34C2A0A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+            {icon: ''},
+        ]
+    },
+    {
+        bgColor: '#D680020A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+        ]
+    },
+    {
+        bgColor: '#16796F0A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+        ]
+    },
+    {
+        bgColor: '#8A69AC0A',
+        features: [
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+            {icon: '/icons/solid.svg'},
+        ]
+    }
+]

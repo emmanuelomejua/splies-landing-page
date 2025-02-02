@@ -5,6 +5,7 @@ import SubMenu from './locals/SubMenu';
 import Features from './modules/Features';
 import Payment from './modules/Payment';
 import ClientMgt from './modules/ClientMgt';
+import TeamMgt from './modules/TeamMgt';
 
 const Price = () => {
   return (
@@ -15,6 +16,7 @@ const Price = () => {
       <Features/>
       <Payment/>
       <ClientMgt/>
+      <TeamMgt/>
     </div>
   )
 }
