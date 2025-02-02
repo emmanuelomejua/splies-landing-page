@@ -33,7 +33,7 @@ const Hero = () => {
 
   return (
     <div 
-      style={{ backgroundImage: `url(${HeroImage})`, 
+      style={{ backgroundImage: `url(${currentImage})`, 
       backgroundSize: 'cover', 
       backgroundRepeat: 'no-repeat', 
       backgroundColor: '#032721' }} 

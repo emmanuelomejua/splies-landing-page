@@ -13,7 +13,7 @@ type BType = {
 const Board2:FC<BType> = ({className, data, isBooking, others }) => {
   return (
     <div 
-        className={`flex flex-col w-[200px] gap-4 rounded-[4px] p-[10px] ${others && 'pt-[69px]'} ${className}`} 
+        className={`flex flex-col w-[200px] gap-4 rounded-[4px] p-[10px] ${others && 'pt-[65px]'} ${className}`} 
         style={{backgroundColor: `${data.bgColor}`, height:  `${data?.width}`, }}>
 
        {isBooking && 
@@ -24,7 +24,7 @@ const Board2:FC<BType> = ({className, data, isBooking, others }) => {
             key={data}/>}
         {
           data?.features?.map((d: any) => (
-              <Card2 data={d} className='mt-[100px]' key={data} />
+              <Card2 data={d} className='mt-[50px]' key={data} />
           ))
         }
     </div>
