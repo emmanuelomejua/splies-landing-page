@@ -54,37 +54,49 @@ export const testimonial = [
         img: '/testimonial/sam.svg',
         text: '“Splice has truly transformed our salon operations. Our booking efficiency has skyrocketed, and we’ve seen a significant increase in appointments. Managing schedules and customer data has never been this seamless. We’re thrilled with the results!”',
         name: 'Sam M.',
-        title: 'Salon Owner'
+        title: 'Salon Owner',
+        width: '284px',
+        height: '298px'
     },
     {
         img: '/testimonial/alan.svg',
         text: '“Before Splice, managing our spa’s appointments and payments was chaotic. Now, everything is organized, and we’ve seen a notable increase in client satisfaction and revenue. It’s a must-have for any wellness business.”',
         name: 'Alan P.',
-        title: 'Spa Owner'
+        title: 'Spa Owner',
+        width: '246px',
+        height: '254px'
     },
     {
         img: '/testimonial/emma.svg',
         text: '“Since integrating Splice into our beauty business, our bookings and revenue have surged. The software’s intuitive design and powerful tools make it simple to manage appointments and grow our client base. We couldn’t be happier with our decision.”',
         name: 'Emma R.,',
-        title: 'Beauty Therapist'
+        title: 'Beauty Therapist',
+        width: '284px',
+        height: '298px'
     },
     {
         img: '/testimonial/michael.svg',
         text: 'Splice’s all-in-one system has streamlined every aspect of our wellness center. From effortless booking to efficient Catalogue management, the platform’s features have significantly improved our operations. Plus, the local currency support is a fantastic bonus!”',
         name: 'Michael K.',
-        title: 'Wellness Center Director'
+        title: 'Wellness Center Director',
+        width: '284px',
+        height: '323px'
     },
     {
         img: '/testimonial/laura.svg',
         text: '“The customer support from Splice is truly exceptional. From the moment we started using the software, their team has been incredibly responsive and helpful. The software itself has greatly streamlined our booking process. Beyond that, Splice offers insightful reports that have been invaluable for making informed business decisions. I highly recommend Splice to anyone looking to enhance their beauty salon management.”',
         name: 'Laura N.,',
-        title: 'Beauty Salon Manager'
+        title: 'Beauty Salon Manager',
+        width: '346px',
+        height: '367px'
     },
     {
         img: '/testimonial/jessica.svg',
         text: '“Splice has revolutionized how we handle bookings and client management. The software is incredibly user-friendly and has helped us grow our business significantly. It’s like having a personal assistant for our salon, I highly recommend Splice to anyone!”',
         name: 'Jessica T.',
-        title: 'Hair Stylist'
+        title: 'Hair Stylist',
+        width: '284px',
+        height: '323px'
     },
 ]
 
@@ -94,32 +106,44 @@ export const benefits = [
     {
         title: 'Online bookings',
         text: 'Say goodbye to pen and paper or clunky software - Splice provides the easiest way for your customers to book appointments. Accept bookings anytime.',
-        img: benefit1
+        img: benefit1,
+        bgColor: '#C34C2A0A',
+        bgColor1: '#105E55'
     },
     {
         title: 'Payments',
         text: 'Splice makes it easy to accept payments with multiple options including online payments and instant transfers. No matter what payment option your customers prefer, Splice has you covered.',
-        img: benefits2
+        img: benefits2,
+        bgColor: '#2D2D2D0D',
+        bgColor1: '#105E55'
     },
     {
         title: 'Messaging',
         text: "Splice helps you stay on top of your customer relationship. With automated emails and sms, you're always in touch with your customers.",
-        img: benefit1
+        img: benefit1,
+        bgColor: '#16796F0A',
+        bgColor1: '#105E55'
     },
     {
-        title: 'Online bookings',
-        text: 'Say goodbye to pen and paper or clunky software - Splice provides the easiest way for your customers to book appointments. Accept bookings anytime.',
-        img: benefit1
+        title: 'Customer management',
+        text: 'Splice centralizes customer info,  prefernce and appointment history, boosting retention and growth with personalized experiences .',
+        img: benefit1,
+        bgColor: '#8A69AC0A',
+        bgColor1: '#105E55'
     },
     {
-        title: 'Payments',
+        title: 'Reporting & Insight',
         text: 'Splice makes it easy to accept payments with multiple options including online payments and instant transfers. No matter what payment option your customers prefer, Splice has you covered.',
-        img: benefits2
+        img: benefits2,
+        bgColor: '#16796F0A',
+        bgColor1: '#105E55'
     },
     {
-        title: 'Messaging',
+        title: 'Promo & Loyalty programs',
         text: "Splice helps you stay on top of your customer relationship. With automated emails and sms, you're always in touch with your customers.",
-        img: benefit1
+        img: benefit1,
+        bgColor: '#2B65EF0A',
+        bgColor1: '#105E55'
     },
 
 ]

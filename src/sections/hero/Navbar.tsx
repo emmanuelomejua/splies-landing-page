@@ -19,9 +19,18 @@ const Navbar = () => {
             <img src="/icons/logo.svg" alt="" className="h-[33px] w-[70px]" />
 
             <div className="flex items-center gap-[40px] relative">
-                <NavBtn text='Benefits' onClick={() => {}}/>
-                <NavBtn text='Why Splice' onClick={() => setCard(!card)} img/>
-                <NavBtn text='Resources' onClick={() => setCard1(!card1)} img/>
+                <NavBtn text='Benefits' />
+
+                <NavBtn 
+                  text='Why Splice' 
+                  onMouseEnter={() => setCard(true)}
+                  onMouseLeave={() => setCard(false)}
+                  img/>
+
+                <NavBtn text='Resources' 
+                   onMouseEnter={() => setCard1(true)}
+                   onMouseLeave={() => setCard1(false)}
+                  img/>
 
 
                   {card && <div className="flex flex-col absolute top-[50px] right-0 left-[80px] w-max p-[13px] rounded-[10px] bg-White2 text-[#19302A] gap-[10px] font-[500] font-semibold">
